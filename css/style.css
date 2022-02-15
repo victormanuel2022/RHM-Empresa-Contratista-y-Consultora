@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+.fondoHeader {
+  background-color: #002060; }
+
+.texto-logo {
+  color: #ffb300; }
+
+.mynav a:hover {
+  border-radius: 20%;
+  border-bottom: 2px solid #ffb300; }
+
+.titulo {
+  font-family: 'Comforter', cursive;
+  font-family: 'Quintessential', cursive;
+  font-family: 'Roboto Slab', serif;
+  color: #002060; }
+
+.img-all {
+  border-radius: 10%;
+  padding: 1px;
+  box-shadow: 0 10px 10px gray; }
+
+.redes-sociales {
+  padding: 10px 0;
+  margin-bottom: 40px; }
+
+.redes-sociales .icono {
+  width: 40px;
+  height: 40px;
+  color: #fff;
+  background: #cbcbcb;
+  display: inline-block;
+  margin: 0px 20px;
+  text-decoration: none;
+  border-radius: 100px;
+  transition: all 3s ease; }
+
+.redes-sociales .icono svg {
+  width: 20px;
+  height: 20px; }
+
+@media (max-width: 576px) {
+  .redes-sociales .icono {
+    width: 30px;
+    height: 30px; }
+  .redes-sociales .icono svg {
+    width: 25px;
+    height: 25px; } }
+
+.redes-sociales .facebook {
+  background-color: #0456ee; }
+
+.redes-sociales .linkedin {
+  background-color: #0390e7; }
+
+.redes-sociales .youtube {
+  background-color: #bb2222; }
+
+.redes-sociales .whatsapp {
+  background-color: #0cd43e; }
+
+.formulario {
+  height: 150px; }
+
+.formul {
+  background-color: #e5e7ec;
+  border-radius: 5%; }
