@@ -24,6 +24,14 @@
 .barra {
   position: fixe; }
 
+@media (max-width: 575px) {
+  .img-carousel {
+    height: auto; } }
+
+@media (max-width: 1024px) {
+  .img-carousel {
+    height: 50%; } }
+
 .redes-sociales {
   padding: 10px 0;
   margin-bottom: 40px; }
