@@ -16,13 +16,8 @@
 //Aplicando media queries a las imágenes del carousel
 @media(max-width:575px){
     .img-carousel{
-        height: auto;
-    }
-}
-
-@media(max-width:1024px){
-    .img-carousel{
-        height: 50%;
+        
+        height: 350px;
     }
 }
 
