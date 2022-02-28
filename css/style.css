@@ -76,3 +76,9 @@
 .formul {
   background-color: #e5e7ec;
   border-radius: 5%; }
+
+.formul-campus {
+  height: 300px;
+  background-color: #ffb300;
+  border-radius: 5%;
+  margin: 128px 0; }
