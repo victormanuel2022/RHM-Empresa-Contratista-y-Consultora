@@ -106,6 +106,8 @@
     transform: translate(20vw, -10vh); } }
 
 @media (max-width: 576px) {
+  .img-campus .text-aprende {
+    color: #002060; }
   .img-campus .text-aprende:hover {
     animation: efecto 3s; }
   @keyframes efecto {
