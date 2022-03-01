@@ -18,10 +18,14 @@
 }
 
 .img-campus{
-    background: url(/img/Campus.jpg); 
+    background-image: url(/img/Campus.jpg); 
     background-repeat: no-repeat;
     background-size: cover;   
-    background-position: center;    
+    background-position: center; 
+    
+    .text-aprende{
+        color: white;
+    }
 
     .text-aprende:hover{        
             animation: efecto 3s;
@@ -56,7 +60,7 @@
     .img-campus{
 
         .text-aprende{
-            color: $azul;
+            color: blue;
         }
             
     

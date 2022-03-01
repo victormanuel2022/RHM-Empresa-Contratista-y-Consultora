@@ -84,10 +84,12 @@
   margin: 128px 0; }
 
 .img-campus {
-  background: url(/img/Campus.jpg);
+  background-image: url(/img/Campus.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center; }
+  .img-campus .text-aprende {
+    color: white; }
   .img-campus .text-aprende:hover {
     animation: efecto 3s; }
 
@@ -107,7 +109,7 @@
 
 @media (max-width: 576px) {
   .img-campus .text-aprende {
-    color: #002060; }
+    color: blue; }
   .img-campus .text-aprende:hover {
     animation: efecto 3s; }
   @keyframes efecto {
