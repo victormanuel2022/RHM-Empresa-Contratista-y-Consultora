@@ -14,10 +14,12 @@
     border-radius: 5%;
     margin: 128px 0;
     
+    
 }
 
 .img-campus{
-    background: url(/img/Campus.jpg);    
+    background: url(/img/Campus.jpg); 
+    background-repeat: no-repeat;       
 
     .text-aprende:hover{        
             animation: efecto 3s;
